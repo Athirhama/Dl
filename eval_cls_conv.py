@@ -73,7 +73,7 @@ def main(args):
     classifier = PointConvClsSsg(num_class).cuda()
     if args.checkpoint is not None:
         print('Load CheckPoint...')
-        logger.info('Load CheckPoint')
+        logger.info('Load CheckPoint', weights_only=False)
         checkpoint = torch.load(args.checkpoint)
         start_epoch = checkpoint['epoch']
         classifier.load_state_dict(checkpoint['model_state_dict'])
