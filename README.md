@@ -19,14 +19,13 @@ It is sufficient to run the notebook we provided you. It contains a command to c
 We have provided the checkpoint for our training. However, if you wish to train or evaluate the model yourself, use the following commands:
 
 To train the model:
-
-Bash
+```bash
 python train_cls_conv.py --model pointconv_modelnet40 --normal --epoch 10 --batchsize 64
-
+```
 To evaluate the model:
-
-Bash
+``` bash
 python eval_cls_conv.py --checkpoint ./checkpoints/checkpoint.pth --normal --batchsize 64
+````
 
 ### Dataset
 We downloaded the dataset from: chenxaoyu/modelnet-normal-resampled. Further details regarding the dataset setup are provided within the notebook.
