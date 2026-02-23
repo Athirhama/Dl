@@ -12,7 +12,7 @@ Platform: Google Colab
 GPU: T4 (recommended)
 PyTorch: We have updated the authors' original code to be compatible with the latest versions of PyTorch, and we tested it on the 2.10.0 version
 
-### Note for Teachers
+### Note for the teachers or the teachers' assistants 
 It is sufficient to run the notebook we provided you. It contains a command to clone this repository along with the necessary weights. Detailed explanations for each step are included within the cells.
 
 ### Training & Evaluation
