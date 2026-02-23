@@ -5,12 +5,12 @@ This project is based on the CVPR 2019 paper "PointConv: Deep Convolutional Netw
 This project was conducted as part of the Deep Learning course by MVA/CentraleSupélec. The primary aim of this project is to study the robustness of the PointConv architecture.
 
 ## Usage
-Our robustness analysis is available in the Jupyter Notebook titled DeepLearning.ipynb.
+Our robustness analysis is available in the notebook entitled 'DeepLearning'.
 
 ### Environment
 Platform: Google Colab
 GPU: T4 (recommended)
-PyTorch: We have updated the authors' original code to be compatible with the latest versions of PyTorch.
+PyTorch: We have updated the authors' original code to be compatible with the latest versions of PyTorch, and we tested it on the 2.10.0 version
 
 ### Note for Teachers
 It is sufficient to run the notebook we provided you. It contains a command to clone this repository along with the necessary weights. Detailed explanations for each step are included within the cells.
